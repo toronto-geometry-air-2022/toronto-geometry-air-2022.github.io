@@ -39,6 +39,19 @@
 body
 {
   font-family: 'Linux Biolinum',sans-serif;
+  background-color: var(--lightgray);
+  margin: 0;
+  padding: 0;
+}
+.article
+{
+  padding: 1em;
+  max-width: 50em;
+  width: 100%;
+  margin: 0 auto;
+  border-left: 1px solid var(--darkgray);
+  border-right: 1px solid var(--darkgray);
+  background-color: white;
 }
 .row
 {
@@ -230,7 +243,8 @@ li.completed
 }
 .imgli
 {
-  width: 45%;
+  text-align: center;
+  min-width: 24em;
   display: inline-block;
   list-style-type: none;
 }
